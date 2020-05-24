@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "django-boilerplate"
+version = "1.0.0"
+description = "Django Boilerplate"
+authors = ["João Santos <joaopns05@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+bcrypt = "^3.1.7"
+django = "^3.0.6"
+django-environ = "^0.4.5"
+django-model-utils = "^4.0.0"
+django-allauth = "^0.41.0"
+django-crispy-forms = "^1.9.0"
+django-autoslug = "^1.9.7"
+psycopg2-binary = "^2.8.5"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+coverage = "^5.1"
+pre-commit = "^2.4.0"
+mypy = "^0.770"
+flake8 = "^3.8.2"
+django-stubs = "^1.5.0"
+pylint-django = "^2.0.15"
+
+[build-system]
+requires = ["poetry-core>=1.0.0a5"]
+build-backend = "poetry.core.masonry.api"
